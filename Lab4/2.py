@@ -36,7 +36,7 @@ else:
     print('Nie ma takiej liczby w obu zestawach')
 
 zestaw_1_2=zestaw_1 + zestaw_2
-
+zestaw_1_2.sort()
 print(zestaw_1_2)
-print(zestaw_1_2.sort())
+
 

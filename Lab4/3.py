@@ -5,13 +5,10 @@
 • Wyświetl informację o liczbie zwierząt na liście'''
 
 zwierzeta=[]
-zwierzeta.append('kot')
-zwierzeta.append('pies')
-zwierzeta.append('łoś')
-zwierzeta.append('ryba')
-zwierzeta.append('chomik')
-zwierzeta.append('żubr')
-zwierzeta.append('małpa')
+for x in range (6):
+    x=input("Podaj zwierze:")
+    zwierzeta.append(x)
+
 zwierzeta.sort()
 print(f"lista posortowana{zwierzeta}")
 print(zwierzeta[0])
