@@ -22,3 +22,15 @@ def z3_1(*args):
 
 
 z3_1(1,2,3,10,100,17,18,99)
+
+def maxf(number1,*args):
+    zmienna = number1
+    for x in args[1:]:
+        if x > zmienna:
+            zmienna = x
+
+    print(f'największa liczba w krotce wynosi: {zmienna}')
+
+
+maxf(678,2,3,10,234,17,18,99)
+
